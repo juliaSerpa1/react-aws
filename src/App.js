@@ -1,11 +1,12 @@
+import React from 'react';
 import './App.css';
+import PayloadTable from './components/PayloadTable';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Olá mundo!</h1>
-      </header>
+      <h1>DynamoDB Data Viewer</h1>
+      <PayloadTable />
     </div>
   );
 }
